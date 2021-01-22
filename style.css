@@ -1,0 +1,60 @@
+html, body {
+    height: 100vh;
+}
+
+body {
+    background-image: url(img/double-bubble-dark.png);
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+#header {
+    text-align: center;
+    /* margin-top: 30vh; */
+    margin-bottom: -15px;
+}
+
+#grid-container {
+    justify-self: center;
+    display: grid;
+    border: solid 5px white;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+#slider-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+    /* border: solid 1px #003459; */
+}
+
+.red {
+    background-color: red;
+}
+
+h1 {
+    text-decoration: underline;
+    font-family: "Yusei Magic";
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+/* .black:hover {
+    background-color: red;
+} */
